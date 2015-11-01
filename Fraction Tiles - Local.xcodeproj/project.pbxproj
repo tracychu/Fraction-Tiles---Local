@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9AFAC2FF1BE6BBC200E02FEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFAC2FE1BE6BBC200E02FEF /* AppDelegate.swift */; };
+		9AFAC3011BE6BBC200E02FEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFAC3001BE6BBC200E02FEF /* ViewController.swift */; };
+		9AFAC3041BE6BBC200E02FEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AFAC3021BE6BBC200E02FEF /* Main.storyboard */; };
+		9AFAC3061BE6BBC200E02FEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AFAC3051BE6BBC200E02FEF /* Assets.xcassets */; };
+		9AFAC3091BE6BBC200E02FEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AFAC3071BE6BBC200E02FEF /* LaunchScreen.storyboard */; };
+		9AFAC3141BE6BBC200E02FEF /* Fraction_Tiles___LocalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFAC3131BE6BBC200E02FEF /* Fraction_Tiles___LocalTests.swift */; };
+		9AFAC31F1BE6BBC200E02FEF /* Fraction_Tiles___LocalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFAC31E1BE6BBC200E02FEF /* Fraction_Tiles___LocalUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9AFAC3101BE6BBC200E02FEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AFAC2F31BE6BBC200E02FEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AFAC2FA1BE6BBC200E02FEF;
+			remoteInfo = "Fraction Tiles - Local";
+		};
+		9AFAC31B1BE6BBC200E02FEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AFAC2F31BE6BBC200E02FEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AFAC2FA1BE6BBC200E02FEF;
+			remoteInfo = "Fraction Tiles - Local";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9AFAC2FB1BE6BBC200E02FEF /* Fraction Tiles - Local.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fraction Tiles - Local.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AFAC2FE1BE6BBC200E02FEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9AFAC3001BE6BBC200E02FEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9AFAC3031BE6BBC200E02FEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9AFAC3051BE6BBC200E02FEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9AFAC3081BE6BBC200E02FEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9AFAC30A1BE6BBC200E02FEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AFAC30F1BE6BBC200E02FEF /* Fraction Tiles - LocalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fraction Tiles - LocalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AFAC3131BE6BBC200E02FEF /* Fraction_Tiles___LocalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Fraction_Tiles___LocalTests.swift"; sourceTree = "<group>"; };
+		9AFAC3151BE6BBC200E02FEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AFAC31A1BE6BBC200E02FEF /* Fraction Tiles - LocalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fraction Tiles - LocalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AFAC31E1BE6BBC200E02FEF /* Fraction_Tiles___LocalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Fraction_Tiles___LocalUITests.swift"; sourceTree = "<group>"; };
+		9AFAC3201BE6BBC200E02FEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AFAC2F81BE6BBC200E02FEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AFAC30C1BE6BBC200E02FEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AFAC3171BE6BBC200E02FEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AFAC2F21BE6BBC200E02FEF = {
+			isa = PBXGroup;
+			children = (
+				9AFAC2FD1BE6BBC200E02FEF /* Fraction Tiles - Local */,
+				9AFAC3121BE6BBC200E02FEF /* Fraction Tiles - LocalTests */,
+				9AFAC31D1BE6BBC200E02FEF /* Fraction Tiles - LocalUITests */,
+				9AFAC2FC1BE6BBC200E02FEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9AFAC2FC1BE6BBC200E02FEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AFAC2FB1BE6BBC200E02FEF /* Fraction Tiles - Local.app */,
+				9AFAC30F1BE6BBC200E02FEF /* Fraction Tiles - LocalTests.xctest */,
+				9AFAC31A1BE6BBC200E02FEF /* Fraction Tiles - LocalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AFAC2FD1BE6BBC200E02FEF /* Fraction Tiles - Local */ = {
+			isa = PBXGroup;
+			children = (
+				9AFAC2FE1BE6BBC200E02FEF /* AppDelegate.swift */,
+				9AFAC3001BE6BBC200E02FEF /* ViewController.swift */,
+				9AFAC3021BE6BBC200E02FEF /* Main.storyboard */,
+				9AFAC3051BE6BBC200E02FEF /* Assets.xcassets */,
+				9AFAC3071BE6BBC200E02FEF /* LaunchScreen.storyboard */,
+				9AFAC30A1BE6BBC200E02FEF /* Info.plist */,
+			);
+			path = "Fraction Tiles - Local";
+			sourceTree = "<group>";
+		};
+		9AFAC3121BE6BBC200E02FEF /* Fraction Tiles - LocalTests */ = {
+			isa = PBXGroup;
+			children = (
+				9AFAC3131BE6BBC200E02FEF /* Fraction_Tiles___LocalTests.swift */,
+				9AFAC3151BE6BBC200E02FEF /* Info.plist */,
+			);
+			path = "Fraction Tiles - LocalTests";
+			sourceTree = "<group>";
+		};
+		9AFAC31D1BE6BBC200E02FEF /* Fraction Tiles - LocalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9AFAC31E1BE6BBC200E02FEF /* Fraction_Tiles___LocalUITests.swift */,
+				9AFAC3201BE6BBC200E02FEF /* Info.plist */,
+			);
+			path = "Fraction Tiles - LocalUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AFAC2FA1BE6BBC200E02FEF /* Fraction Tiles - Local */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AFAC3231BE6BBC200E02FEF /* Build configuration list for PBXNativeTarget "Fraction Tiles - Local" */;
+			buildPhases = (
+				9AFAC2F71BE6BBC200E02FEF /* Sources */,
+				9AFAC2F81BE6BBC200E02FEF /* Frameworks */,
+				9AFAC2F91BE6BBC200E02FEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fraction Tiles - Local";
+			productName = "Fraction Tiles - Local";
+			productReference = 9AFAC2FB1BE6BBC200E02FEF /* Fraction Tiles - Local.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9AFAC30E1BE6BBC200E02FEF /* Fraction Tiles - LocalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AFAC3261BE6BBC200E02FEF /* Build configuration list for PBXNativeTarget "Fraction Tiles - LocalTests" */;
+			buildPhases = (
+				9AFAC30B1BE6BBC200E02FEF /* Sources */,
+				9AFAC30C1BE6BBC200E02FEF /* Frameworks */,
+				9AFAC30D1BE6BBC200E02FEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AFAC3111BE6BBC200E02FEF /* PBXTargetDependency */,
+			);
+			name = "Fraction Tiles - LocalTests";
+			productName = "Fraction Tiles - LocalTests";
+			productReference = 9AFAC30F1BE6BBC200E02FEF /* Fraction Tiles - LocalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9AFAC3191BE6BBC200E02FEF /* Fraction Tiles - LocalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AFAC3291BE6BBC200E02FEF /* Build configuration list for PBXNativeTarget "Fraction Tiles - LocalUITests" */;
+			buildPhases = (
+				9AFAC3161BE6BBC200E02FEF /* Sources */,
+				9AFAC3171BE6BBC200E02FEF /* Frameworks */,
+				9AFAC3181BE6BBC200E02FEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AFAC31C1BE6BBC200E02FEF /* PBXTargetDependency */,
+			);
+			name = "Fraction Tiles - LocalUITests";
+			productName = "Fraction Tiles - LocalUITests";
+			productReference = 9AFAC31A1BE6BBC200E02FEF /* Fraction Tiles - LocalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AFAC2F31BE6BBC200E02FEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Tracy Chu";
+				TargetAttributes = {
+					9AFAC2FA1BE6BBC200E02FEF = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					9AFAC30E1BE6BBC200E02FEF = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 9AFAC2FA1BE6BBC200E02FEF;
+					};
+					9AFAC3191BE6BBC200E02FEF = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 9AFAC2FA1BE6BBC200E02FEF;
+					};
+				};
+			};
+			buildConfigurationList = 9AFAC2F61BE6BBC200E02FEF /* Build configuration list for PBXProject "Fraction Tiles - Local" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AFAC2F21BE6BBC200E02FEF;
+			productRefGroup = 9AFAC2FC1BE6BBC200E02FEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AFAC2FA1BE6BBC200E02FEF /* Fraction Tiles - Local */,
+				9AFAC30E1BE6BBC200E02FEF /* Fraction Tiles - LocalTests */,
+				9AFAC3191BE6BBC200E02FEF /* Fraction Tiles - LocalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AFAC2F91BE6BBC200E02FEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AFAC3091BE6BBC200E02FEF /* LaunchScreen.storyboard in Resources */,
+				9AFAC3061BE6BBC200E02FEF /* Assets.xcassets in Resources */,
+				9AFAC3041BE6BBC200E02FEF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AFAC30D1BE6BBC200E02FEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AFAC3181BE6BBC200E02FEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AFAC2F71BE6BBC200E02FEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AFAC3011BE6BBC200E02FEF /* ViewController.swift in Sources */,
+				9AFAC2FF1BE6BBC200E02FEF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AFAC30B1BE6BBC200E02FEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AFAC3141BE6BBC200E02FEF /* Fraction_Tiles___LocalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AFAC3161BE6BBC200E02FEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AFAC31F1BE6BBC200E02FEF /* Fraction_Tiles___LocalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9AFAC3111BE6BBC200E02FEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AFAC2FA1BE6BBC200E02FEF /* Fraction Tiles - Local */;
+			targetProxy = 9AFAC3101BE6BBC200E02FEF /* PBXContainerItemProxy */;
+		};
+		9AFAC31C1BE6BBC200E02FEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AFAC2FA1BE6BBC200E02FEF /* Fraction Tiles - Local */;
+			targetProxy = 9AFAC31B1BE6BBC200E02FEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9AFAC3021BE6BBC200E02FEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AFAC3031BE6BBC200E02FEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9AFAC3071BE6BBC200E02FEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AFAC3081BE6BBC200E02FEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AFAC3211BE6BBC200E02FEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9AFAC3221BE6BBC200E02FEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AFAC3241BE6BBC200E02FEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Fraction Tiles - Local/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WalmartLabs.Fraction-Tiles---Local";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9AFAC3251BE6BBC200E02FEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Fraction Tiles - Local/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WalmartLabs.Fraction-Tiles---Local";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9AFAC3271BE6BBC200E02FEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Fraction Tiles - LocalTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WalmartLabs.Fraction-Tiles---LocalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fraction Tiles - Local.app/Fraction Tiles - Local";
+			};
+			name = Debug;
+		};
+		9AFAC3281BE6BBC200E02FEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Fraction Tiles - LocalTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WalmartLabs.Fraction-Tiles---LocalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fraction Tiles - Local.app/Fraction Tiles - Local";
+			};
+			name = Release;
+		};
+		9AFAC32A1BE6BBC200E02FEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Fraction Tiles - LocalUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WalmartLabs.Fraction-Tiles---LocalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Fraction Tiles - Local";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9AFAC32B1BE6BBC200E02FEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Fraction Tiles - LocalUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "WalmartLabs.Fraction-Tiles---LocalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Fraction Tiles - Local";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AFAC2F61BE6BBC200E02FEF /* Build configuration list for PBXProject "Fraction Tiles - Local" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AFAC3211BE6BBC200E02FEF /* Debug */,
+				9AFAC3221BE6BBC200E02FEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AFAC3231BE6BBC200E02FEF /* Build configuration list for PBXNativeTarget "Fraction Tiles - Local" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AFAC3241BE6BBC200E02FEF /* Debug */,
+				9AFAC3251BE6BBC200E02FEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9AFAC3261BE6BBC200E02FEF /* Build configuration list for PBXNativeTarget "Fraction Tiles - LocalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AFAC3271BE6BBC200E02FEF /* Debug */,
+				9AFAC3281BE6BBC200E02FEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9AFAC3291BE6BBC200E02FEF /* Build configuration list for PBXNativeTarget "Fraction Tiles - LocalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AFAC32A1BE6BBC200E02FEF /* Debug */,
+				9AFAC32B1BE6BBC200E02FEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AFAC2F31BE6BBC200E02FEF /* Project object */;
+}
