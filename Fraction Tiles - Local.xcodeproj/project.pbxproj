@@ -14,6 +14,7 @@
 		9AFAC3091BE6BBC200E02FEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AFAC3071BE6BBC200E02FEF /* LaunchScreen.storyboard */; };
 		9AFAC3141BE6BBC200E02FEF /* Fraction_Tiles___LocalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFAC3131BE6BBC200E02FEF /* Fraction_Tiles___LocalTests.swift */; };
 		9AFAC31F1BE6BBC200E02FEF /* Fraction_Tiles___LocalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFAC31E1BE6BBC200E02FEF /* Fraction_Tiles___LocalUITests.swift */; };
+		9AFAC32D1BE72D9D00E02FEF /* TileWidthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFAC32C1BE72D9D00E02FEF /* TileWidthViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9AFAC31A1BE6BBC200E02FEF /* Fraction Tiles - LocalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fraction Tiles - LocalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AFAC31E1BE6BBC200E02FEF /* Fraction_Tiles___LocalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Fraction_Tiles___LocalUITests.swift"; sourceTree = "<group>"; };
 		9AFAC3201BE6BBC200E02FEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AFAC32C1BE72D9D00E02FEF /* TileWidthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TileWidthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				9AFAC2FE1BE6BBC200E02FEF /* AppDelegate.swift */,
 				9AFAC3001BE6BBC200E02FEF /* ViewController.swift */,
 				9AFAC3021BE6BBC200E02FEF /* Main.storyboard */,
+				9AFAC32C1BE72D9D00E02FEF /* TileWidthViewController.swift */,
 				9AFAC3051BE6BBC200E02FEF /* Assets.xcassets */,
 				9AFAC3071BE6BBC200E02FEF /* LaunchScreen.storyboard */,
 				9AFAC30A1BE6BBC200E02FEF /* Info.plist */,
@@ -256,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AFAC3011BE6BBC200E02FEF /* ViewController.swift in Sources */,
+				9AFAC32D1BE72D9D00E02FEF /* TileWidthViewController.swift in Sources */,
 				9AFAC2FF1BE6BBC200E02FEF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,7 +402,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Fraction Tiles - Local/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "WalmartLabs.Fraction-Tiles---Local";
+				PRODUCT_BUNDLE_IDENTIFIER = "WalmartLabs.Fraction-Tiles---Tracy-Local";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -409,7 +413,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Fraction Tiles - Local/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "WalmartLabs.Fraction-Tiles---Local";
+				PRODUCT_BUNDLE_IDENTIFIER = "WalmartLabs.Fraction-Tiles---Tracy-Local";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -481,6 +485,7 @@
 				9AFAC3251BE6BBC200E02FEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AFAC3261BE6BBC200E02FEF /* Build configuration list for PBXNativeTarget "Fraction Tiles - LocalTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +494,7 @@
 				9AFAC3281BE6BBC200E02FEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AFAC3291BE6BBC200E02FEF /* Build configuration list for PBXNativeTarget "Fraction Tiles - LocalUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +503,7 @@
 				9AFAC32B1BE6BBC200E02FEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
